@@ -1,36 +1,35 @@
 package com.niit.pocono.model;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+import org.springframework.stereotype.Component;
 
+@Entity
+@Table(name="CATEGORY")
+@Component
 public class Category {
-	private int uid;
-	private int name;
-	private String categoryDetails;
-	private String products;
-	public int getuid() {
-		return uid;
+	private String id;
+	private String name;
+	private String description;
+	
+	@Id
+	public String getId() {
+		return id;
 	}
-	public int getUid() {
-		return uid;
+	public void setId(String id) {
+		this.id = id;
 	}
-	public void setUid(int uid) {
-		this.uid = uid;
-	}
-	public int getName() {
+	public String getName() {
 		return name;
 	}
-	public void setName(int name) {
+	public void setName(String name) {
 		this.name = name;
 	}
-	public String getCategoryDetails() {
-		return categoryDetails;
+	public String getDescription() {
+		return description;
 	}
-	public void setCategoryDetails(String categoryDetails) {
-		this.categoryDetails = categoryDetails;
+	public void setDescription(String description) {
+		this.description = description;
 	}
-	public String getProducts() {
-		return products;
-	}
-	public void setProducts(String products) {
-		this.products = products;
-	}
-	
 }
+

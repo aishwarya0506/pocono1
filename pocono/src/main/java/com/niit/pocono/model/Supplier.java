@@ -1,28 +1,36 @@
 package com.niit.pocono.model;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+import org.springframework.stereotype.Component;
 
+@Entity
+@Table(name="SUPPLIER")
+@Component
 public class Supplier {
-	public class Product {
-	private int id;
-		private String manufacturer;
-		private String details;
-	public int getId() {
+
+	private String id;
+	private String name;
+	private String address;
+	@Id
+	public String getId() {
 		return id;
 	}
-	public String getManufacturer() {
-		return manufacturer;
-	}
-	public void setManufacturer(String manufacturer) {
-		this.manufacturer = manufacturer;
-	}
-	public String getDetails() {
-		return details;
-	}
-	public void setDetails(String details) {
-		this.details = details;
-	}
-	public void setId(int id) {
+	public void setId(String id) {
 		this.id = id;
 	}
-		
+	public String getName() {
+		return name;
 	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	
 }
+
