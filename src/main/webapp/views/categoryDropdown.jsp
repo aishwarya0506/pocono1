@@ -59,11 +59,15 @@
         <div class="row">
 
             <div class="col-md-3">
-                <p class="lead">BOOK STORE</p>
+                <p class="lead">POCONO MEDICINES</p>
                 <div class="list-group">
-                    <a href="categoryDropdown/101" class="list-group-item">Kids</a>
-                    <a href="categoryDropdown/102" class="list-group-item">Youngsters and Teens</a>
-                    <a href="categoryDropdown/103" class="list-group-item">Text Book</a>
+                    <a href="categoryDropdown/101" class="list-group-item">Diabetes</a>
+                    <a href="categoryDropdown/102" class="list-group-item">Health Aid</a>
+                    <a href="categoryDropdown/103" class="list-group-item">New Borns</a>
+                    <a href="categoryDropdown/104" class="list-group-item">OTC</a>
+                    <a href="categoryDropdown/105" class="list-group-item">Baby and Mother</a>
+                    <a href="categoryDropdown/106" class="list-group-item">Personal Care</a>
+                    <a href="categoryDropdown/107" class="list-group-item">Wellness</a>
                 </div>
             </div>
    <div class="col-md-9">;

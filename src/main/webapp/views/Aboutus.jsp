@@ -34,16 +34,14 @@ In 2016, the company made a strategic leap and became the worlds first medicine 
 This site has experienced massive growth and is now the largest Medicine supplier.With its headquarters in Chennai and also has offices in Mumbai, Bangalore and Delhi.
 As a global medicine distributor, POCONO site offers a wide range of medicines for the people living in any part of the world.
           </p>
-        </div>
-        
+        </div>       
 </div>   
-   
 <br>
 <br>
 <br>
 <br>
 <br>
-
+<br>
 
 <jsp:include page="footer.jsp"></jsp:include>
 </body>
