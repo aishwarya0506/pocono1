@@ -46,10 +46,7 @@ background-color: #661a00;
 </head>
 <body>
 
-	<header>
-		<center>
-		<h1 style="font-family:monotype corsiva;"><img src="https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/564985/580/386/m1/fpnw/wm0/1-.jpg?1436816495&s=36d5eceba23d9355349d47697d8069b3	" height="77" width="77" style="font-family: monotype corsiva;" /><b>bookstore</b></h1>
-	</center>
+	<%@ include file="header.jsp" %>
 	<nav class="navbar navbar-inverse">
 
 	<ul class="nav navbar-nav">

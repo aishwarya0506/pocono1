@@ -100,9 +100,7 @@
                     </c:forEach>
               
 
-                    
-
-                    
+                                        
                 </div>
 
             </div>

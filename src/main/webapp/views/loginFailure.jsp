@@ -16,7 +16,7 @@ font-family: monotype corsiva;
 	color:#000;
 	}
 .background {
-	background-image: url("https://wallpaperscraft.com/image/sunglasses_books_beach_sun_110969_1920x1080.jpg");
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCr8rAUoLrnl5kDrxHdmX-UyDvfjc9J2OluiLnSR1jPFvNFRs8");
 	background-size:100%;
 }
 

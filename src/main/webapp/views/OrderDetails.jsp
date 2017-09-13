@@ -15,7 +15,7 @@
    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
    <style type="text/css">
    body {
-	background-image: url("http://eskipaper.com/images/necklace-hd-1.jpg");
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcQmbG87_fFxkj6rv7bnC-ceE9c6Z0WbOb9RySgYPJllCnbuok");
 	background-repeat: no-repeat;
 	background-size:150%;
 	
