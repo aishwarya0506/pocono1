@@ -82,7 +82,7 @@ catch(Exception e)
 	try {
 		log.debug("starting of update method");
 		sessionFactory.getCurrentSession().update(userDetails);
-		log.debug("starting of update method");
+		log.debug("updated successfully");
 		return true;
 	}
 	catch(Exception e)
@@ -156,8 +156,6 @@ if (listOfCustomers != null && !listOfCustomers.isEmpty()){
 }
 return null;
 }
-
-
 
 
 }

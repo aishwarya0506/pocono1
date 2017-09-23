@@ -154,7 +154,7 @@ font-weight: bold;
 					<td>${product.supplier.name}</td>
 					<td>${product.image_link}</td>
 					<td>${product.image}</td>
-					<td><img src="<c:url value="${product.image_link}.jpg"/>" style="width:75px;height:75px"></td>
+					<td><img src="<c:url value="${product.image_link}.jpg"/>" style="width:200px;height:200"></td>
 					<td><a href="<c:url value='editproduct/${product.id}' />">Edit</a></td>
 					<td><a href="<c:url value='removeproduct/${product.id}' />">Delete</a></td>
 				</tr>
